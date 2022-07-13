@@ -6,6 +6,7 @@ namespace AdmiralSunk
         public Game()
         {
             InitializeComponent();
+
         }
 
         private void Game_Load(object sender, EventArgs e)
