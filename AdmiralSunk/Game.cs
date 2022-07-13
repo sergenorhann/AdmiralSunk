@@ -101,18 +101,18 @@ namespace AdmiralSunk
         }
 
 
-        private bool _dragButton;
-        private Point _getFirstPoint;
-        private Point[] _shipPoint;
-        private string _oldButton;
-        private Button _newButton = new();
-        private int _counter;
-        private string _shipXPoint = "";
-        private int _pointX, _pointY;
-        private readonly int[,] _buttonsOnFormLocationX = new int[10, 10];
-        private readonly int[,] _buttonsOnFormLocationY = new int[10, 10];
-        private readonly Button[] _buttonsOnPanel = new Button[100];
-        private readonly List<string> _buttonIsEmpty = new();
+        private bool _dragButton; // suruklenmedurumu
+        private Point _getFirstPoint; // ilkkonumAl
+        private Point[] _shipPoint; //gemilerin ilk konumu
+        private string _oldButton; // eski buton
+        private Button _newButton = new(); // yeni buton
+        private int _counter; // sayaç
+        private string _shipXPoint = ""; // GemiHarfKonumu
+        private int _pointX, _pointY; // i ve j yerine geçiyor
+        private readonly int[,] _buttonsOnFormLocationX = new int[10, 10]; // butonlarFormKonumuX
+        private readonly int[,] _buttonsOnFormLocationY = new int[10, 10]; // butonlarFormKonumuY
+        private readonly Button[] _buttonsOnPanel = new Button[100]; // paneldeki butonlar
+        private readonly List<string> _buttonIsEmpty = new(); // buton boş mu
 
         private void buttonSetLocation()
         {
