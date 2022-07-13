@@ -6,7 +6,6 @@ namespace AdmiralSunk
         public Game()
         {
             InitializeComponent();
-
         }
 
         private void Game_Load(object sender, EventArgs e)
@@ -41,6 +40,7 @@ namespace AdmiralSunk
         private void Mine1_MouseUp(object sender, MouseEventArgs e)
         {
             _dragButton = false;
+            if (e.Button == MouseButtons.Right) return;
             buttonMatch(Mine1, true);
         }
 
@@ -57,13 +57,13 @@ namespace AdmiralSunk
         private void Mine2_MouseUp(object sender, MouseEventArgs e)
         {
             _dragButton = false;
+            if (e.Button == MouseButtons.Right) return;
             buttonMatch(Mine2, true);
         }
 
         private void Mine3_MouseDown(object sender, MouseEventArgs e)
         {
             OnMouseDown(e, Mine3,3);
-            
         }
         private void Mine3_MouseMove(object sender, MouseEventArgs e)
         {
@@ -74,7 +74,8 @@ namespace AdmiralSunk
         private void Mine3_MouseUp(object sender, MouseEventArgs e)
         {
             _dragButton = false;
-            buttonMatch(Mine3, true);
+            if (e.Button == MouseButtons.Right) return;
+                buttonMatch(Mine3, true);
         }
 
         private void Cruiser1_MouseDown(object sender, MouseEventArgs e)
@@ -89,9 +90,12 @@ namespace AdmiralSunk
         }
         private void Cruiser1_MouseUp(object sender, MouseEventArgs e)
         {
-            _dragButton = false;
-            buttonMatch(Cruiser1, true);
-            if (e.Button != MouseButtons.Right) return;//  11.07.2022
+            if (e.Button != MouseButtons.Right)
+            {
+                _dragButton = false;
+                buttonMatch(Cruiser1, true);
+                return;
+            }
             Cruiser1.Size = new Size(Cruiser1.Size.Height, Cruiser1.Size.Width);//  11.07.2022
             Cruiser1.AccessibleName = Cruiser1.AccessibleName is "H" ? "V" : "H";//  11.07.2022
         }
