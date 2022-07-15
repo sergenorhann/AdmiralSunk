@@ -158,6 +158,15 @@
             this.B1 = new System.Windows.Forms.Button();
             this.A1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.MineLayer1 = new System.Windows.Forms.Button();
+            this.MineLayer2 = new System.Windows.Forms.Button();
+            this.MineLayer3 = new System.Windows.Forms.Button();
+            this.MineLayer4 = new System.Windows.Forms.Button();
+            this.Cruiser2 = new System.Windows.Forms.Button();
+            this.Cruiser3 = new System.Windows.Forms.Button();
+            this.Frigate1 = new System.Windows.Forms.Button();
+            this.Frigate2 = new System.Windows.Forms.Button();
+            this.FlagShip1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -364,7 +373,8 @@
             // 
             // Mine1
             // 
-            this.Mine1.Location = new System.Drawing.Point(607, 60);
+            this.Mine1.AccessibleName = "H";
+            this.Mine1.Location = new System.Drawing.Point(570, 60);
             this.Mine1.Name = "Mine1";
             this.Mine1.Size = new System.Drawing.Size(44, 44);
             this.Mine1.TabIndex = 271;
@@ -375,7 +385,8 @@
             // 
             // Mine2
             // 
-            this.Mine2.Location = new System.Drawing.Point(607, 111);
+            this.Mine2.AccessibleName = "H";
+            this.Mine2.Location = new System.Drawing.Point(570, 111);
             this.Mine2.Name = "Mine2";
             this.Mine2.Size = new System.Drawing.Size(44, 44);
             this.Mine2.TabIndex = 273;
@@ -407,7 +418,8 @@
             // 
             // Mine3
             // 
-            this.Mine3.Location = new System.Drawing.Point(607, 161);
+            this.Mine3.AccessibleName = "H";
+            this.Mine3.Location = new System.Drawing.Point(570, 161);
             this.Mine3.Name = "Mine3";
             this.Mine3.Size = new System.Drawing.Size(44, 44);
             this.Mine3.TabIndex = 277;
@@ -419,11 +431,12 @@
             // Cruiser1
             // 
             this.Cruiser1.AccessibleName = "H";
-            this.Cruiser1.Location = new System.Drawing.Point(680, 60);
+            this.Cruiser1.Location = new System.Drawing.Point(728, 60);
             this.Cruiser1.Name = "Cruiser1";
             this.Cruiser1.Size = new System.Drawing.Size(144, 44);
             this.Cruiser1.TabIndex = 278;
             this.Cruiser1.Tag = "";
+            this.Cruiser1.Text = "Krüvazör";
             this.Cruiser1.UseVisualStyleBackColor = true;
             this.Cruiser1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser1_MouseDown);
             this.Cruiser1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser1_MouseMove);
@@ -433,9 +446,9 @@
             // 
             this.panel2.Controls.Add(this.InfoLabel);
             this.panel2.Controls.Add(this.InfoLabel2);
-            this.panel2.Location = new System.Drawing.Point(586, 323);
+            this.panel2.Location = new System.Drawing.Point(122, 562);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(292, 111);
+            this.panel2.Size = new System.Drawing.Size(292, 55);
             this.panel2.TabIndex = 279;
             // 
             // J10
@@ -1964,12 +1977,147 @@
             this.panel1.Size = new System.Drawing.Size(510, 510);
             this.panel1.TabIndex = 272;
             // 
+            // MineLayer1
+            // 
+            this.MineLayer1.AccessibleName = "H";
+            this.MineLayer1.Location = new System.Drawing.Point(623, 60);
+            this.MineLayer1.Name = "MineLayer1";
+            this.MineLayer1.Size = new System.Drawing.Size(94, 44);
+            this.MineLayer1.TabIndex = 280;
+            this.MineLayer1.Tag = "";
+            this.MineLayer1.Text = "mayın gemisi";
+            this.MineLayer1.UseVisualStyleBackColor = true;
+            this.MineLayer1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseDown);
+            this.MineLayer1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseMove);
+            this.MineLayer1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseUp);
+            // 
+            // MineLayer2
+            // 
+            this.MineLayer2.AccessibleName = "H";
+            this.MineLayer2.Location = new System.Drawing.Point(623, 160);
+            this.MineLayer2.Name = "MineLayer2";
+            this.MineLayer2.Size = new System.Drawing.Size(94, 44);
+            this.MineLayer2.TabIndex = 281;
+            this.MineLayer2.Tag = "";
+            this.MineLayer2.Text = "mayın gemisi";
+            this.MineLayer2.UseVisualStyleBackColor = true;
+            this.MineLayer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseDown);
+            this.MineLayer2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseMove);
+            this.MineLayer2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseUp);
+            // 
+            // MineLayer3
+            // 
+            this.MineLayer3.AccessibleName = "H";
+            this.MineLayer3.Location = new System.Drawing.Point(623, 255);
+            this.MineLayer3.Name = "MineLayer3";
+            this.MineLayer3.Size = new System.Drawing.Size(94, 44);
+            this.MineLayer3.TabIndex = 282;
+            this.MineLayer3.Tag = "";
+            this.MineLayer3.Text = "mayın gemisi";
+            this.MineLayer3.UseVisualStyleBackColor = true;
+            this.MineLayer3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseDown);
+            this.MineLayer3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseMove);
+            this.MineLayer3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseUp);
+            // 
+            // MineLayer4
+            // 
+            this.MineLayer4.AccessibleName = "H";
+            this.MineLayer4.Location = new System.Drawing.Point(623, 350);
+            this.MineLayer4.Name = "MineLayer4";
+            this.MineLayer4.Size = new System.Drawing.Size(94, 44);
+            this.MineLayer4.TabIndex = 284;
+            this.MineLayer4.Tag = "";
+            this.MineLayer4.Text = "mayın gemisi";
+            this.MineLayer4.UseVisualStyleBackColor = true;
+            this.MineLayer4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseDown);
+            this.MineLayer4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseMove);
+            this.MineLayer4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseUp);
+            // 
+            // Cruiser2
+            // 
+            this.Cruiser2.AccessibleName = "H";
+            this.Cruiser2.Location = new System.Drawing.Point(728, 205);
+            this.Cruiser2.Name = "Cruiser2";
+            this.Cruiser2.Size = new System.Drawing.Size(144, 44);
+            this.Cruiser2.TabIndex = 285;
+            this.Cruiser2.Tag = "";
+            this.Cruiser2.Text = "Krüvazör";
+            this.Cruiser2.UseVisualStyleBackColor = true;
+            this.Cruiser2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseDown);
+            this.Cruiser2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseMove);
+            this.Cruiser2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseUp);
+            // 
+            // Cruiser3
+            // 
+            this.Cruiser3.AccessibleName = "H";
+            this.Cruiser3.Location = new System.Drawing.Point(728, 350);
+            this.Cruiser3.Name = "Cruiser3";
+            this.Cruiser3.Size = new System.Drawing.Size(144, 44);
+            this.Cruiser3.TabIndex = 286;
+            this.Cruiser3.Tag = "";
+            this.Cruiser3.Text = "Krüvazör";
+            this.Cruiser3.UseVisualStyleBackColor = true;
+            this.Cruiser3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseDown);
+            this.Cruiser3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseMove);
+            this.Cruiser3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseUp);
+            // 
+            // Frigate1
+            // 
+            this.Frigate1.AccessibleName = "H";
+            this.Frigate1.Location = new System.Drawing.Point(883, 60);
+            this.Frigate1.Name = "Frigate1";
+            this.Frigate1.Size = new System.Drawing.Size(194, 44);
+            this.Frigate1.TabIndex = 287;
+            this.Frigate1.Tag = "";
+            this.Frigate1.Text = "Fırkateyn";
+            this.Frigate1.UseVisualStyleBackColor = true;
+            this.Frigate1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseDown);
+            this.Frigate1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseMove);
+            this.Frigate1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseUp);
+            // 
+            // Frigate2
+            // 
+            this.Frigate2.AccessibleName = "H";
+            this.Frigate2.Location = new System.Drawing.Point(883, 255);
+            this.Frigate2.Name = "Frigate2";
+            this.Frigate2.Size = new System.Drawing.Size(194, 44);
+            this.Frigate2.TabIndex = 288;
+            this.Frigate2.Tag = "";
+            this.Frigate2.Text = "Fırkateyn";
+            this.Frigate2.UseVisualStyleBackColor = true;
+            this.Frigate2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseDown);
+            this.Frigate2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseMove);
+            this.Frigate2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseUp);
+            // 
+            // FlagShip1
+            // 
+            this.FlagShip1.AccessibleName = "H";
+            this.FlagShip1.Location = new System.Drawing.Point(883, 450);
+            this.FlagShip1.Name = "FlagShip1";
+            this.FlagShip1.Size = new System.Drawing.Size(194, 44);
+            this.FlagShip1.TabIndex = 289;
+            this.FlagShip1.Tag = "";
+            this.FlagShip1.Text = "Amiral Gemisi";
+            this.FlagShip1.UseVisualStyleBackColor = true;
+            this.FlagShip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseDown);
+            this.FlagShip1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseMove);
+            this.FlagShip1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseUp);
+            // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(913, 623);
+            this.ClientSize = new System.Drawing.Size(1084, 649);
+            this.Controls.Add(this.FlagShip1);
+            this.Controls.Add(this.Frigate2);
+            this.Controls.Add(this.Frigate1);
+            this.Controls.Add(this.Cruiser3);
+            this.Controls.Add(this.Cruiser2);
+            this.Controls.Add(this.MineLayer4);
+            this.Controls.Add(this.MineLayer3);
+            this.Controls.Add(this.MineLayer2);
+            this.Controls.Add(this.MineLayer1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.Cruiser1);
             this.Controls.Add(this.Mine3);
@@ -2140,5 +2288,14 @@
         private Button B1;
         private Button A1;
         private Panel panel1;
+        private Button MineLayer1;
+        private Button MineLayer2;
+        private Button MineLayer3;
+        private Button MineLayer4;
+        private Button Cruiser2;
+        private Button Cruiser3;
+        private Button Frigate1;
+        private Button Frigate2;
+        private Button FlagShip1;
     }
 }
