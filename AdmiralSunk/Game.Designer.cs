@@ -379,9 +379,9 @@
             this.Mine1.Size = new System.Drawing.Size(44, 44);
             this.Mine1.TabIndex = 271;
             this.Mine1.UseVisualStyleBackColor = true;
-            this.Mine1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mine1_MouseDown);
-            this.Mine1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mine1_MouseMove);
-            this.Mine1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Mine1_MouseUp);
+            this.Mine1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Mine1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Mine1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Mine2
             // 
@@ -391,9 +391,9 @@
             this.Mine2.Size = new System.Drawing.Size(44, 44);
             this.Mine2.TabIndex = 273;
             this.Mine2.UseVisualStyleBackColor = true;
-            this.Mine2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mine2_MouseDown);
-            this.Mine2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mine2_MouseMove);
-            this.Mine2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Mine2_MouseUp);
+            this.Mine2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Mine2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Mine2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // InfoLabel
             // 
@@ -424,9 +424,9 @@
             this.Mine3.Size = new System.Drawing.Size(44, 44);
             this.Mine3.TabIndex = 277;
             this.Mine3.UseVisualStyleBackColor = true;
-            this.Mine3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mine3_MouseDown);
-            this.Mine3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mine3_MouseMove);
-            this.Mine3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Mine3_MouseUp);
+            this.Mine3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Mine3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Mine3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Cruiser1
             // 
@@ -438,9 +438,9 @@
             this.Cruiser1.Tag = "";
             this.Cruiser1.Text = "Krüvazör";
             this.Cruiser1.UseVisualStyleBackColor = true;
-            this.Cruiser1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser1_MouseDown);
-            this.Cruiser1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser1_MouseMove);
-            this.Cruiser1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Cruiser1_MouseUp);
+            this.Cruiser1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Cruiser1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Cruiser1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // panel2
             // 
@@ -1987,9 +1987,9 @@
             this.MineLayer1.Tag = "";
             this.MineLayer1.Text = "mayın gemisi";
             this.MineLayer1.UseVisualStyleBackColor = true;
-            this.MineLayer1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseDown);
-            this.MineLayer1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseMove);
-            this.MineLayer1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer1_MouseUp);
+            this.MineLayer1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.MineLayer1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.MineLayer1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // MineLayer2
             // 
@@ -2001,9 +2001,9 @@
             this.MineLayer2.Tag = "";
             this.MineLayer2.Text = "mayın gemisi";
             this.MineLayer2.UseVisualStyleBackColor = true;
-            this.MineLayer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseDown);
-            this.MineLayer2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseMove);
-            this.MineLayer2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer2_MouseUp);
+            this.MineLayer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.MineLayer2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.MineLayer2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // MineLayer3
             // 
@@ -2015,9 +2015,9 @@
             this.MineLayer3.Tag = "";
             this.MineLayer3.Text = "mayın gemisi";
             this.MineLayer3.UseVisualStyleBackColor = true;
-            this.MineLayer3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseDown);
-            this.MineLayer3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseMove);
-            this.MineLayer3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer3_MouseUp);
+            this.MineLayer3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.MineLayer3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.MineLayer3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // MineLayer4
             // 
@@ -2029,9 +2029,9 @@
             this.MineLayer4.Tag = "";
             this.MineLayer4.Text = "mayın gemisi";
             this.MineLayer4.UseVisualStyleBackColor = true;
-            this.MineLayer4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseDown);
-            this.MineLayer4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseMove);
-            this.MineLayer4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MineLayer4_MouseUp);
+            this.MineLayer4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.MineLayer4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.MineLayer4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Cruiser2
             // 
@@ -2043,9 +2043,9 @@
             this.Cruiser2.Tag = "";
             this.Cruiser2.Text = "Krüvazör";
             this.Cruiser2.UseVisualStyleBackColor = true;
-            this.Cruiser2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseDown);
-            this.Cruiser2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseMove);
-            this.Cruiser2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Cruiser2_MouseUp);
+            this.Cruiser2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Cruiser2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Cruiser2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Cruiser3
             // 
@@ -2057,9 +2057,9 @@
             this.Cruiser3.Tag = "";
             this.Cruiser3.Text = "Krüvazör";
             this.Cruiser3.UseVisualStyleBackColor = true;
-            this.Cruiser3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseDown);
-            this.Cruiser3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseMove);
-            this.Cruiser3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Cruiser3_MouseUp);
+            this.Cruiser3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Cruiser3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Cruiser3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Frigate1
             // 
@@ -2071,9 +2071,9 @@
             this.Frigate1.Tag = "";
             this.Frigate1.Text = "Fırkateyn";
             this.Frigate1.UseVisualStyleBackColor = true;
-            this.Frigate1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseDown);
-            this.Frigate1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseMove);
-            this.Frigate1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Frigate1_MouseUp);
+            this.Frigate1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Frigate1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Frigate1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Frigate2
             // 
@@ -2085,9 +2085,9 @@
             this.Frigate2.Tag = "";
             this.Frigate2.Text = "Fırkateyn";
             this.Frigate2.UseVisualStyleBackColor = true;
-            this.Frigate2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseDown);
-            this.Frigate2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseMove);
-            this.Frigate2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Frigate2_MouseUp);
+            this.Frigate2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.Frigate2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.Frigate2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // FlagShip1
             // 
@@ -2099,9 +2099,9 @@
             this.FlagShip1.Tag = "";
             this.FlagShip1.Text = "Amiral Gemisi";
             this.FlagShip1.UseVisualStyleBackColor = true;
-            this.FlagShip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseDown);
-            this.FlagShip1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseMove);
-            this.FlagShip1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.FlagShip1_MouseUp);
+            this.FlagShip1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
+            this.FlagShip1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mouseMove);
+            this.FlagShip1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.mouseUp);
             // 
             // Game
             // 

@@ -167,7 +167,7 @@ namespace AdmiralSunk
                     counter2++;
                     if (_oldButton.Contains(t))
                     {
-                        _buttonIsEmpty.Remove(_oldButton.FirstOrDefault(t));
+                        _buttonIsEmpty.Remove(_oldButton.FirstOrDefault(t));//hatamız burada.
                         if (_tryStrings.Count == counter2)
                         {
                             return c;
@@ -286,181 +286,224 @@ namespace AdmiralSunk
             InfoLabel2.Text = null;
         }
 
+     
+        private void mouseDown(object sender, MouseEventArgs e)
+        {
+            switch (sender)
+            {
+                case var value when value == Mine1:
+                {
+                    OnMouseDown(e, Mine1, 1);
+                    break;
+                }
+                case var value when value == Mine2:
+                {
+                    OnMouseDown(e, Mine2, 2);
+                    break;
+                }
+                case var value when value == Mine3:
+                {
+                    OnMouseDown(e, Mine3, 3);
+                    break;
+                }
+                case var value when value == MineLayer1:
+                {
+                    OnMouseDown(e, MineLayer1, 4);
+                    break;
+                }
+                case var value when value == MineLayer2:
+                {
+                    OnMouseDown(e, MineLayer2, 5);
+                    break;
+                }
+                case var value when value == MineLayer3:
+                {
+                    OnMouseDown(e, MineLayer3, 6);
+                    break;
+                }
+                case var value when value == MineLayer4:
+                {
+                    OnMouseDown(e, MineLayer4, 7);
+                    break;
+                }
+                case var value when value == Cruiser1:
+                {
+                    OnMouseDown(e, Cruiser1, 8);
+                    break;
+                }
+                case var value when value == Cruiser2:
+                {
+                    OnMouseDown(e, Cruiser2, 9);
+                    break;
+                }
+                case var value when value == Cruiser3:
+                {
+                    OnMouseDown(e, Cruiser3, 10);
+                    break;
+                }
+                case var value when value == Frigate1:
+                {
+                    OnMouseDown(e, Frigate1, 11);
+                    break;
+                }
+                case var value when value == Frigate2:
+                {
+                    OnMouseDown(e, Frigate2, 12);
+                    break;
+                }
+                case var value when value == FlagShip1:
+                {
+                    OnMouseDown(e, FlagShip1, 13);
+                    break;
+                }
+            }
 
+        }
+        private void mouseUp(object sender, MouseEventArgs e)
+        {
+            switch (sender)
+            {
+                case var value when value == Mine1:
+                    {
+                        OnMouseUp(e, Mine1);
+                        break;
+                    }
+                case var value when value == Mine2:
+                    {
+                        OnMouseUp(e, Mine2);
+                        break;
+                    }
+                case var value when value == Mine3:
+                    {
+                        OnMouseUp(e, Mine3);
+                        break;
+                    }
+                case var value when value == MineLayer1:
+                    {
+                        OnMouseUp(e, MineLayer1);
+                        break;
+                    }
+                case var value when value == MineLayer2:
+                    {
+                        OnMouseUp(e, MineLayer2);
+                        break;
+                    }
+                case var value when value == MineLayer3:
+                    {
+                        OnMouseUp(e, MineLayer3);
+                        break;
+                    }
+                case var value when value == MineLayer4:
+                    {
+                        OnMouseUp(e, MineLayer4);
+                        break;
+                    }
+                case var value when value == Cruiser1:
+                    {
+                        OnMouseUp(e, Cruiser1);
+                        break;
+                    }
+                case var value when value == Cruiser2:
+                    {
+                        OnMouseUp(e, Cruiser2);
+                        break;
+                    }
+                case var value when value == Cruiser3:
+                    {
+                        OnMouseUp(e, Cruiser3);
+                        break;
+                    }
+                case var value when value == Frigate1:
+                    {
+                        OnMouseUp(e, Frigate1);
+                        break;
+                    }
+                case var value when value == Frigate2:
+                    {
+                        OnMouseUp(e, Frigate2);
+                        break;
+                    }
+                case var value when value == FlagShip1:
+                    {
+                        OnMouseUp(e, FlagShip1);
+                        break;
+                    }
+            }
 
+        }
+        private void mouseMove(object sender, MouseEventArgs e)
+        {
+            switch (sender)
+            {
+                case var value when value == Mine1:
+                    {
+                        OnMouseMove(e, Mine1);
+                        break;
+                    }
+                case var value when value == Mine2:
+                    {
+                        OnMouseMove(e, Mine2);
+                        break;
+                    }
+                case var value when value == Mine3:
+                    {
+                        OnMouseMove(e, Mine3);
+                        break;
+                    }
+                case var value when value == MineLayer1:
+                    {
+                        OnMouseMove(e, MineLayer1);
+                        break;
+                    }
+                case var value when value == MineLayer2:
+                    {
+                        OnMouseMove(e, MineLayer2);
+                        break;
+                    }
+                case var value when value == MineLayer3:
+                    {
+                        OnMouseMove(e, MineLayer3);
+                        break;
+                    }
+                case var value when value == MineLayer4:
+                    {
+                        OnMouseMove(e, MineLayer4);
+                        break;
+                    }
+                case var value when value == Cruiser1:
+                    {
+                        OnMouseMove(e, Cruiser1);
+                        break;
+                    }
+                case var value when value == Cruiser2:
+                    {
+                        OnMouseMove(e, Cruiser2);
+                        break;
+                    }
+                case var value when value == Cruiser3:
+                    {
+                        OnMouseMove(e, Cruiser3);
+                        break;
+                    }
+                case var value when value == Frigate1:
+                    {
+                        OnMouseMove(e, Frigate1);
+                        break;
+                    }
+                case var value when value == Frigate2:
+                    {
+                        OnMouseMove(e, Frigate2);
+                        break;
+                    }
+                case var value when value == FlagShip1:
+                    {
+                        OnMouseMove(e, FlagShip1);
+                        break;
+                    }
+            }
 
-
-
-
-
-        private void Mine1_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Mine1, 1);
         }
-        private void Mine1_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Mine1);
-        }
-        private void Mine1_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Mine1);
-        }
-
-        private void Mine2_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Mine2, 2);
-        }
-        private void Mine2_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Mine2);
-        }
-        private void Mine2_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Mine2);
-        }
-
-        private void Mine3_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Mine3, 3);
-        }
-        private void Mine3_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Mine3);
-        }
-        private void Mine3_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Mine3);
-        }
-
-        private void MineLayer1_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, MineLayer1, 4);
-        }
-        private void MineLayer1_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, MineLayer1);
-        }
-        private void MineLayer1_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, MineLayer1);
-        }
-
-        private void MineLayer2_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, MineLayer2, 5);
-        }
-        private void MineLayer2_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, MineLayer2);
-        }
-        private void MineLayer2_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, MineLayer2);
-        }
-
-        private void MineLayer3_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, MineLayer3, 6);
-        }
-        private void MineLayer3_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, MineLayer3);
-        }
-        private void MineLayer3_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, MineLayer3);
-        }
-
-        private void MineLayer4_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, MineLayer4, 7);
-        }
-        private void MineLayer4_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, MineLayer4);
-        }
-        private void MineLayer4_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, MineLayer4);
-        }
-
-        private void Cruiser1_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Cruiser1, 8);
-        }
-        private void Cruiser1_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Cruiser1);
-        }
-        private void Cruiser1_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Cruiser1);
-        }
-
-        private void Cruiser2_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Cruiser2, 9);
-        }
-        private void Cruiser2_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Cruiser2);
-        }
-        private void Cruiser2_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Cruiser2);
-        }
-
-        private void Cruiser3_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Cruiser3, 10);
-        }
-        private void Cruiser3_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Cruiser3);
-        }
-        private void Cruiser3_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Cruiser3);
-        }
-
-        private void Frigate1_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Frigate1, 11);
-        }
-        private void Frigate1_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Frigate1);
-        }
-        private void Frigate1_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Frigate1);
-        }
-
-        private void Frigate2_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, Frigate2, 12);
-        }
-        private void Frigate2_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, Frigate2);
-        }
-        private void Frigate2_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, Frigate2);
-        }
-
-        private void FlagShip1_MouseDown(object sender, MouseEventArgs e)
-        {
-            OnMouseDown(e, FlagShip1, 13);
-        }
-        private void FlagShip1_MouseMove(object sender, MouseEventArgs e)
-        {
-            OnMouseMove(e, FlagShip1);
-        }
-        private void FlagShip1_MouseUp(object sender, MouseEventArgs e)
-        {
-            OnMouseUp(e, FlagShip1);
-        }
+        
 
     }
 }
